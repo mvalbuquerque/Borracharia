@@ -2,7 +2,8 @@
 
 import UIKit
 
-var str = "Desafio Orçamento Borracharia, playground"
+  //Nome do Aplicativo
+var str = "Aplicativo Orçamento Borracharia"
 
 
  //Declarando variáveis para o preco da roda e pneu
@@ -32,7 +33,7 @@ let total: Double = somatoria + taxa
  
 //Imprimindo tudo no console
 
- print("..:: Aplicativo Borracharia::..");
+ print("..:: Aplicativo Borracharia ::..");
  print("-----------------------------");
  
  print("\t Pneu\t             R$",somarValorPneu);
