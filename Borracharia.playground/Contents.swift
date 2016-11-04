@@ -2,8 +2,8 @@
 
 import UIKit
 
-  //Nome do Aplicativo
-var str = "Aplicativo Orçamento Borracharia"
+ //Nome do Aplicativo
+ var str = "Aplicativo Orçamento Borracharia"
 
 
  //Declarando variáveis para o preco da roda e pneu
@@ -31,8 +31,7 @@ let taxa: Double = somatoria * 0.10
 // somando o valor total com a taxa de 10%
 let total: Double = somatoria + taxa
  
-//Imprimindo tudo no console
-
+//Imprimindo a comanda de orçamento no console
  print("..:: Aplicativo Borracharia ::..");
  print("-----------------------------");
  
@@ -45,10 +44,7 @@ let total: Double = somatoria + taxa
 
 
 //Exemplo com utilizando float
-
 /*
-
-
 //Declarando as variaveis
 let precoRoda: Float = 100.00
 let precoPneu: Float = 100.00
