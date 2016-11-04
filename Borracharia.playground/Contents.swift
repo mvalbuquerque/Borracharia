@@ -5,27 +5,33 @@ import UIKit
 var str = "Desafio Orçamento Borracharia, playground"
 
 
- //Declarando as variaveis
+ //Declarando variáveis para o preco da roda e pneu
  let precoRoda: Double = 100.00
  let precoPneu: Double = 100.00
  
  //Declaraondo quantidade de pneus e rodas para um carro
  let qtdRoda: Double = 4.0
  let qtdPneu: Double = 4.0
- 
+
+
  // Multiplicando o valor de preco de vendo pela quantidade de rodas
  let somarValorRoda: Double = precoRoda * qtdRoda
  let somarValorPneu: Double = precoPneu * qtdPneu
- 
+
+// Somando o valor do preco do pneu e da roda
  let somaValorRoda: Double = precoPneu + precoRoda
- 
+
+//somando o valor total do preco da roda mas o valor total da soma dos pneus
  let somatoria: Double = somarValorRoda + somarValorPneu
+
+//Acrecentando taxa de 10% no valor
+let taxa: Double = somatoria * 0.10
+
+// somando o valor total com a taxa de 10%
+let total: Double = somatoria + taxa
  
- let taxa: Double = somatoria * 0.10
- 
- let total: Double = somatoria + taxa
- 
- 
+//Imprimindo tudo no console
+
  print("..:: Aplicativo Borracharia::..");
  print("-----------------------------");
  
@@ -37,14 +43,7 @@ var str = "Desafio Orçamento Borracharia, playground"
  
 
 
-
-
-
-
-
-
-
-
+//Exemplo com utilizando float
 
 /*
 
